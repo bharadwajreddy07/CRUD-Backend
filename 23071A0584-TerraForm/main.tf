@@ -3,6 +3,10 @@ terraform {
     local = {
       source = "hashicorp/local"
     }
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = ">= 3.0.0"
+    }
   }
 }
 
